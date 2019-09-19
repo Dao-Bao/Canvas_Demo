@@ -1,16 +1,12 @@
 <template>
   <div id="app">
-    <demo></demo>
+    <router-view/>
   </div>
 </template>
 
 <script>
-import demo from '@/components/demo'
 export default {
-  name: 'App',
-  components: {
-    demo
-  }
+  name: 'App'
 }
 </script>
 
@@ -21,6 +17,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
 </style>

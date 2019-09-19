@@ -1,5 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import Canvas from '@/pages/Canvas'
+// import Detail from '@/detail/Detail'
 
 Vue.use(Router)
 
@@ -9,6 +11,11 @@ export default new Router({
         //   path: '/',
         //   name: 'HelloWorld',
         //   component: HelloWorld
-        // }
+        // },
+        {
+            path: '/',
+            name: 'Canvas',
+            component: Canvas
+        }
     ]
 })
